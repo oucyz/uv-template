@@ -21,7 +21,7 @@ fmt:
 
 .PHONY: test
 test:
-	uv run pytest . --vv
+	uv run pytest . -vv
 
 coverage_run:
 	uv run coverage run -m pytest
