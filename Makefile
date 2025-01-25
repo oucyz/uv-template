@@ -1,6 +1,3 @@
-activate:
-	. .venv/bin/activate
-
 _ruff_lint:
 	uv run ruff check
 
