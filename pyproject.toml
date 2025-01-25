@@ -5,10 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "mypy>=1.14.1",
     "pydantic>=2.10.5",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.14.1",
     "pytest>=8.3.4",
     "ruff>=0.9.1",
+    "coverage>=7.6.10",
 ]
 
 [tool.hatch.build.targets.wheel]
@@ -73,3 +78,4 @@ branch = true
 [tool.coverage.report]
 show_missing = true
 fail_under = 100
+
