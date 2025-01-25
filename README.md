@@ -32,12 +32,15 @@ $ make fmt
 $ make lint
 ```
 
-### Test と Test の Coverage 測定
+### Test と Coverage の取得
 
 ```zsh
 # test
 $ make test
 
-# coverage
+# coverage の取得
 $ make coverage
+
+# coverage の可視化
+$ make vis_coverage
 ```

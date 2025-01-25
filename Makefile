@@ -23,11 +23,20 @@ fmt:
 test:
 	uv run pytest . -vv
 
-coverage_run:
+_coverage_run:
 	uv run coverage run -m pytest
 
-coverage_report:
+_coverage_report:
 	uv run coverage report
 
+_coverage_html:
+	uv run coverage html
+
+_visualize_coverage:
+	make _coverage_html && open htmlcov/index.html
+
 coverage:
-	make coverage_run coverage_report
+	make _coverage_run _coverage_report
+
+vis_coverage:
+	make coverage _visualize_coverage
