@@ -2,6 +2,8 @@
 
 <div align="center">
 
+[![Versions](https://img.shields.io/badge/python-3.12%20|%203.13%20-green.svg)](https://github.com/oucyz/uv-template)
+
 [![Action status](https://github.com/oucyz/uv-template/actions/workflows/CI.yml/badge.svg)](https://github.com/oucyz/uv-template/actions/workflows/CI.yml)
 
 </div>
